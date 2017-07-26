@@ -1,0 +1,64 @@
+body {
+	background-image: url("../images/cat-wallpaper.jpg");
+	font-family: 'Lobster', cursive;
+}
+
+.thumb {
+	text-align: center;
+	width: auto;
+	float: none;
+	display: inline-block;
+}
+
+#gifRating {
+	background: #f0d89d;
+	border: 1px solid #000;
+}
+
+.jumbotron {
+	padding: 20px 0px 20px 0px;
+	background: #323450;
+	color: #f8afbe;
+	margin-top: 15px;
+}
+
+.jumbotron h1 {
+	font-size: 100px;
+}
+
+.jumbotron p {
+	color: #a0a78d;
+}
+
+#rating {
+	color: #323450;
+}
+
+button {
+	margin: 10px;
+	padding: 10px;
+	background: #323450;
+	color: #eeb595;
+	font-size: 18px;
+}
+
+#instructions {
+	display: inline-block;
+	color: #323450;
+	font-size: 30px;
+	background: #a0a78d;
+	border: 2px solid #000;
+}
+
+#addSearchTerm {
+	font-size: 28px;
+	border: 1px solid #000;
+	color: #323450;
+}
+
+#submitBtn {
+	font-size: 28px;
+
+	color: #323450;
+	background: #eeb595;
+}
