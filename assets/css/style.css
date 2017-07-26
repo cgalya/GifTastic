@@ -19,7 +19,7 @@ body {
 	padding: 20px 0px 20px 0px;
 	background: #323450;
 	color: #f8afbe;
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 .jumbotron h1 {
@@ -28,6 +28,7 @@ body {
 
 .jumbotron p {
 	color: #a0a78d;
+	font-size: 30px;
 }
 
 #rating {
@@ -39,26 +40,23 @@ button {
 	padding: 10px;
 	background: #323450;
 	color: #eeb595;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 #instructions {
 	display: inline-block;
-	color: #323450;
-	font-size: 30px;
-	background: #a0a78d;
-	border: 2px solid #000;
+	color: #a0a78d;
+	font-size: 25px;
 }
 
 #addSearchTerm {
-	font-size: 28px;
+	font-size: 25px;
 	border: 1px solid #000;
 	color: #323450;
 }
 
 #submitBtn {
-	font-size: 28px;
-
+	font-size: 25px;
 	color: #323450;
 	background: #eeb595;
 }

@@ -4,6 +4,15 @@ var topics = ["funny cat", "silly cat", "grumpy cat", "sleepy cat", "cats in box
 
 searchGifs("cat");
 makeButtons();
+$("#submitBtn").attr("disabled", true);
+
+$("#addSearchTerm").keyup(function() {
+	if($(this).val().length != 0) {
+		$("#submitBtn").attr("disabled", false);
+	} else {
+		$("#submitBtn").attr("disabled", true);
+	}
+})
 
 function newButton() {
 	var newBtn = $("#addSearchTerm").val();
@@ -15,11 +24,13 @@ function newButton() {
 
 $("#submitBtn").click(function() {
 	newButton();
+	$("#submitBtn").attr("disabled", true);
 })
 
 $("input").keyup(function(){  
   if (event.keyCode == 13) {
    	newButton();
+   	$("#submitBtn").attr("disabled", true);
   }
 });
 
