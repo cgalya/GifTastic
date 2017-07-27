@@ -24,15 +24,18 @@ body {
 
 .jumbotron h1 {
 	font-size: 100px;
+	font-family: 'Cabin Sketch', cursive;
 }
 
 .jumbotron p {
 	color: #a0a78d;
 	font-size: 30px;
+	font-family: 'Cabin Sketch', cursive;
 }
 
 #rating {
 	color: #323450;
+	
 }
 
 button {
@@ -47,6 +50,7 @@ button {
 	display: inline-block;
 	color: #a0a78d;
 	font-size: 25px;
+	font-family: 'Cabin Sketch', cursive;
 }
 
 #addSearchTerm {
